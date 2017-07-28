@@ -1,0 +1,78 @@
+body{
+    background: #eeeeee;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+    color: #0084ff;
+}
+
+.container {
+    margin-top: 5vh;
+}
+
+header, section, footer{
+    padding: 10px;
+}
+
+.header_img{
+    height: 150px;
+    width: 150px;
+}
+
+header h1{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+header h6{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+aside .row{
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.work_info{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 410px) and (max-width: 990px){
+
+    .z-depth-2 {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .join_me_social{
+        padding: 1.5rem !important;
+
+    }
+
+}
+
+@media only screen and (min-width: 993px){
+
+    .join_me_social{
+        padding: 0.5rem !important;
+        margin-bottom: 1rem;
+    }
+}
+
+header hr {
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.portfolio-img {
+    cursor: pointer;
+}

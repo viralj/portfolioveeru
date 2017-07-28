@@ -1,12 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Portfolio</title>
+    <head>
+        <meta charset="UTF-8">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Viral Joshi : Portfolio</title>
 
-</head>
-<body>
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-</body>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+        <!-- Including main.css -->
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+
+    <div class="container">
+
+        <div class="row white z-depth-2">
+
+            <header>
+                <div class="row">
+
+                    <div class="col s12 m12 l2">&nbsp;</div>
+                    <div class="col s12 m3 l3">
+                        <img class="responsive-img circle header_img" src="img/veeru.jpg" alt="Viral Joshi">
+                    </div>
+
+                    <div class="col s12 m9 l7">
+                        <div class="row right-align">
+                            <div class="col s12 l12">
+                                <h1>Viral Joshi</h1>
+                            </div>
+                            <div class="col s12 l12">
+                                <h6>Just another programmer</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l2">&nbsp;</div>
+                    <div class="col s12 m12 l10">
+                        <hr>
+                    </div>
+                </div>
+            </header>
+
+            <section id="content_section">
+                <h6 class="hidden">More about me</h6>
+                <div class="row" id="content">
+                    <aside class="col m12 l2 center-align">
+                        <div class="row">
+                            <div class="col s4 m4 l12 z-depth-2 join_me_social">
+                                <img alt="github" class="responsive-img" src="img/github_120.png" srcset="img/github_32.png 1x, img/github_64.png 2x, img/github_120.png 3x">
+                                <p>
+                                    <a href="https://www.github.com/viralj" target="_blank" title="Follow me on Github">viralj</a>
+                                </p>
+                            </div>
+                            <div class="col s4 m4 l12 z-depth-2 join_me_social">
+                                <img alt="linkedin" class="responsive-img" src="img/ln_121.png" srcset="img/ln_34.png 1x, img/ln_66.png 2x, img/ln_121.png 3x">
+                                <p>
+                                    <a href="https://www.linkedin.com/in/viralj" target="_blank" title="Follow me on LinkedIn">viralj</a>
+                                </p>
+                            </div>
+                            <div class="col s4 m4 l12 z-depth-2 join_me_social">
+                                <img alt="facebook" class="responsive-img" src="img/fb_114.png" srcset="img/fb_29.png 1x, img/fb_58.png 2x, img/fb_114.png 3x">
+                                <p>
+                                    <a href="https://www.facebook.com/viral4ever" target="_blank" title="Follow me on Facebook">viral4ever</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </aside>
+                    <div class="col s12 m12 l10">
+                        <img alt="Code snippet" class="responsive-img z-depth-1" src="img/big_img.png"
+                             title="Code snippet"/>
+                    </div>
+                </div>
+
+                <div class="row" id="featured_work">
+                    <div class="col s12 m12 l10 right">
+
+                        <p>Featured work</p>
+
+                        <div class="row">
+                            <div class="col m12 l3">
+                                <div class="row">
+                                    <div class="col m5 l12">
+                                        <img alt="php projects" class="responsive-img" src="img/python.jpg" title="php projects"/>
+                                    </div>
+
+                                    <div class="col m7 l12">
+                                        <p>
+                                            <button class="waves-effect waves-light btn green darken-2 modal-trigger white-text" id="python_modal_button">Read more</button>
+                                        </p>
+                                        <p>
+                                            <a href="https://github.com/viralj/Python" target="_blank">github.com/viralj/Python</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col l1">&nbsp;</div>
+
+                            <div class="col m12 l3">
+                                <div class="row">
+                                    <div class="col m5 l12">
+                                        <img alt="java projects" class="responsive-img" src="img/java.jpg" title="java projects"/>
+                                    </div>
+
+                                    <div class="col m7 l12">
+                                        <p>
+                                            <button class="waves-effect waves-light btn deep-orange darken-2 modal-trigger white-text" id="java_modal_button">Read more</button>
+                                        </p>
+                                        <p>
+                                            <a href="https://github.com/viralj/JAVA" target="_blank">github.com/viralj/JAVA</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col l1">&nbsp;</div>
+
+                            <div class="col m12 l3">
+                                <div class="row">
+                                    <div class="col m5 l12">
+                                        <img alt="python projects" class="responsive-img" src="img/php.jpg" title="python projects"/>
+                                    </div>
+
+                                    <div class="col m7 l12">
+                                        <p>
+                                            <button class="waves-effect waves-light btn blue darken-2 modal-trigger white-text" id="php_modal_button">Read more</button>
+                                        </p>
+                                        <p>
+                                            <a href="https://github.com/viralj/PHP" target="_blank">github.com/viralj/PHP</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <footer class="center-align">
+            <p>Created by Viral Joshi. | A project for <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004" title="Udacity - Full Stack Web Developer Nanodegree">Udacity - Full Stack Web Developer Nanodegree</a> program.</p>
+        </footer>
+
+        <div id="python_modal" class="modal">
+            <div class="modal-content">
+                <h4>Python projects</h4>
+                <p>When I started learning Python programming language, I fell in love with it right away. I liked it because it is so simple and development using Python language is easy and fast.</p>
+
+                <p>Currently I am working on website which uses Django framework developed in Python and the framework is so easy to use and programmer friendly. Python makes my life easy and helps me to make great websites and programs.</p>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+            </div>
+        </div>
+
+        <div id="java_modal" class="modal">
+            <div class="modal-content">
+                <h4>JAVA projects</h4>
+                <p>JAVA is another language that I use everyday as I am also an Android application developer. I like JAVA because it has different versions based on requirements. Standard Edition and Enterprise Edition based on the needs, always ready to help programmers.</p>
+
+            </div>
+            <div class="modal-footer">
+                <a class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+            </div>
+        </div>
+
+        <div id="php_modal" class="modal">
+            <div class="modal-content">
+                <h4>PHP projects</h4>
+                <p>When I started learning dynamic web development, PHP helped me to understand how dynamic websites work. I had no idea how it works and how long it will take me to understand dynamic website. PHP helped me to get through it and understand different programming languages.</p>
+
+                <p>PHP is most popular language to make open source website projects. I have created couple of open sours projects using PHP and it was fun working on them from scratch.</p>
+
+            </div>
+            <div class="modal-footer">
+                <a class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="js/main.js"></script>
+    </body>
 </html>
